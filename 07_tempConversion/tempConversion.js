@@ -3,7 +3,7 @@ const convertToCelsius = function(farenheit) {
   let celsius = (farenheit - 32) * (5/9);
   celsius = round(celsius, 1);
   return celsius;
-};
+};  
 
 const convertToFahrenheit = function(celsius) {
 
